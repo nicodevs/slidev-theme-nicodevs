@@ -1,14 +1,35 @@
 {
   "name": "slidev-theme-nicodevs",
   "version": "0.1.0",
+  "description": "A bold, brutalist Slidev theme with Space Grotesk and JetBrains Mono.",
   "type": "module",
   "keywords": [
     "slidev-theme",
-    "slidev"
+    "slidev",
+    "theme",
+    "brutalist",
+    "dark"
   ],
-  "engines": {
-    "node": ">=18.0.0"
+  "author": "Nico Devs <hi@nicodevs.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicodevs/slidev-theme-nicodevs"
   },
+  "bugs": {
+    "url": "https://github.com/nicodevs/slidev-theme-nicodevs/issues"
+  },
+  "homepage": "https://github.com/nicodevs/slidev-theme-nicodevs#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "slidev": ">=0.48.0"
+  },
+  "files": [
+    "layouts",
+    "setup",
+    "styles",
+    "example.md"
+  ],
   "scripts": {
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
