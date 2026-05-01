@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-nicodevs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A bold, brutalist Slidev theme with Space Grotesk and JetBrains Mono.",
   "type": "module",
   "keywords": [
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nicodevs/slidev-theme-nicodevs"
+    "url": "git+https://github.com/nicodevs/slidev-theme-nicodevs.git"
   },
   "bugs": {
     "url": "https://github.com/nicodevs/slidev-theme-nicodevs/issues"
